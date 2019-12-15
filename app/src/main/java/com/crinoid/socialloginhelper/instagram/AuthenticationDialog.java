@@ -21,12 +21,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-import com.crinoid.pesopie.R;
+
+import com.crinoid.socialloginhelper.R;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 
-import static com.crinoid.pesopie.instagram.Globals.INSTAGRAM_REDIRECT_URL;
+import static com.crinoid.socialloginhelper.instagram.Globals.INSTAGRAM_REDIRECT_URL;
+
 
 @SuppressLint("ValidFragment")
 public class AuthenticationDialog extends DialogFragment {
